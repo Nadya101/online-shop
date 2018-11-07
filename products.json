@@ -47,5 +47,13 @@
         "image": "tesla-x.jpg",
         "description": "Best crossover in the World",
         "price": 99999.99
+    },
+    {
+        "id": "8",
+        "title": "Aston Martin",
+        "image": "aston-martin.jpg",
+        "description": "British manufacturer of luxury sports cars",
+        "price": 90000.99
     }
+    
 ]

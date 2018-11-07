@@ -6,9 +6,15 @@ function showAlert(message, success = true) {
                 <span aria-hidden="true">&times;</span>
           </button>
         </div>`;
+        products.sort(function(b,a) {
+    return b.price-a.price;
+});
     const alertElement = $('body').append(alertTemplate);
     alertElement.alert();
     setTimeout(() => {
         $('.alert').alert('close');
     }, 1000);
 }
+
+
+
